@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'demo01';
+  name = 'vorakan';
+  result = '...';
+
+  onPress(event: any){
+    console.log(event.target.value)
+  }
 }
